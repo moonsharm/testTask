@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testTask</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="form-block" action="https://60376bfd5435040017722533.mockapi.io/formRej" method="POST">
+        <h1 class="form-block__header">Задать вопрос</h1>
+        <input class="form-block__area form-block__area_typein" type="text" placeholder="Фамилия Имя Отчество *"
+            pattern="[А-Яа-яЁё\-]*\s[А-Яа-яЁё\-]*\s[А-Яа-яЁё\-]*" required>
+        <input class="form-block__area form-block__area_typein" type="tel" placeholder="Телефон *"
+            pattern="[0-9\s\-\+]*" required>
+        <input class="form-block__area form-block__area_typein" type="email" placeholder="Email"
+            pattern="\S+@[a-z]+.[a-z]+">
+        <input class="form-block__area form-block__area_btn" type="submit" value="отправить запрос">
+    </form>
+</body>
+
+</html>
