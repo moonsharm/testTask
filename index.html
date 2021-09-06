@@ -18,7 +18,8 @@
         method="POST">
         <h1 class="form-block__header">Задать вопрос</h1>
         <input class="form-block__area form-block__area_typein _req _name" type="text" name="name"
-            placeholder="Фамилия Имя Отчество *" pattern="[А-Яа-яЁё\-]*\s[А-Яа-яЁё\-]*\s[А-Яа-яЁё\-]*" required>
+            placeholder="Фамилия Имя Отчество *"
+            pattern="[А-Я][А-Яа-яЁё\-]{1,}\s[А-Я][А-Яа-яЁё\-]{1,}\s[А-Я][А-Яа-яЁё\-]{1,}" required>
         <input class="form-block__area form-block__area_typein _req" type="tel" name="phone" placeholder="Телефон *"
             pattern="[0-9\s\-\+]*" required>
         <input class="form-block__area form-block__area_typein" type="email" name="email" placeholder="Email"
